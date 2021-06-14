@@ -1,0 +1,37 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.ulFav{
+    border: solid 2px black;
+    border-radius: 7px;
+    background-color: rgba(12, 182, 182, 0.795);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.Favorite{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.buttonDel{
+    background-color: rgb(156, 22, 22);
+    color: white;
+    max-width: 30px;
+}
+
+.liFav{
+    font-size: 20px;
+    font-family: cursive;
+    padding-right: 8px;
+}
+
+.Header{
+    background-color: rgba(137, 43, 226, 0.664);
+    border-radius: 7px;
+    margin: 30px;
+    padding: 10px 0px;
+    border: solid 2px black
+}

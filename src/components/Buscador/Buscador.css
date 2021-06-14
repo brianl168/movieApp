@@ -1,0 +1,66 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+
+.Movie{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.ListMo{
+    background-color: rgba(173, 216, 230, 0.747);
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 7px 5px rgba(141, 4, 141, 0.787);
+}
+
+.Movie button{
+    margin-left: 20px;
+    max-width: 80px;
+    max-height: 20px;
+}
+
+.Movie li{
+    margin-bottom: 20px;
+}
+
+.Searchbar{
+    border: solid 2px grey;
+    border-radius: 7px;
+    background-color: rgba(11, 180, 236, 0.692);
+    box-shadow: 7px 5px rgba(141, 4, 141, 0.787);
+    padding-bottom: 15px;
+    margin: 0 10px;
+}
+.Searchbar button{
+    background-color: rgb(146, 7, 104);
+    border-radius: 7px;
+    color: white;
+}
+
+.nameTitle{
+    font-size: 20px;
+    font-family: cursive
+}
+
+.AddButton{
+    background-color: rgb(146, 7, 104);
+    border-radius: 7px;
+    color: white;
+}
